@@ -88,7 +88,7 @@ namespace SaleOfCoffee
 
                 this.NumberOfCoins[1] = this.NumberOfCoins[1] - numberOfCoins[1];
                 this.NumberOfCoins[2] = this.NumberOfCoins[2] - numberOfCoins[2];
-                this.NumberOfCoins[3] = this.NumberOfCoins[3] - numberOfCoins[3];
+                this.NumberOfCoins[5] = this.NumberOfCoins[5] - numberOfCoins[5];
             }
 
             return result;
@@ -127,11 +127,6 @@ namespace SaleOfCoffee
             }
             Console.WriteLine("Спасибо за покупку!");
         }
-       
-
-        
-
-
     }
 }
 
